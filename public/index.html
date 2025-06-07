@@ -4,9 +4,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Electric cars, Solar & Clean Energy | Tesla</title>
-    <link href="./tailwind.css" rel="stylesheet">
-    <link rel="icon" href="../src/images/favicon.ico">
+    <link href="./tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.ico">
 </head>
 <body>
+    <header class="navbar">
+        <!-- Logo -->
+        <img src="./images/tesla.svg" alt="Tesla Logo" class="h-6">
+        <!-- Nav Links -->
+        <div class="hidden lg:block">
+            <a href="#model3" class="nav_link">Model 3</a>
+            <a href="#modelS" class="nav_link">Model S</a>
+            <a href="#modelX" class="nav_link">Model X</a>
+            <a href="#modelY" class="nav_link">Model Y</a>
+            <a href="#solarPanels" class="nav_link">Solar Panels</a>
+            <a href="#solarRoof" class="nav_link">Solar Roof</a>
+        </div>
+        <!-- External links -->
+        <div>
+            <a class="nav_link" href="#shop">Shop</a>
+            <a class="nav_link" href="#account">Account</a>
+            <a class="nav_link" href="#menu">Menu</a>
+        </div>
+    </header>
+
+    <!-- Model 3 Section -->
+    <section id="model3" class="car_section">
+        <img src="./images/Model3.jfif" alt="Model 3" class="car-image">
+        <div class="car_details transform_50">
+            <h1 class="model_name">Model 3</h1>
+            <h2 class="tag_line">Lease starting at $399/mo</h2>
+        </div>
+        <div class="car_buttons transform_50">
+            <button class="btn">Custom Order</button>
+            <button class="btn inventory">Demo Drive</button>
+        </div>
+        <a href="#modelS">
+            <svg class="down_svg" viewBox="0 0 30 30" width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+                <path stroke="currentColor" stroke-width="1.5" d="m19.5 12.5-4.5 4-4.5-4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+    </section>
+
+    <!-- Model S Section -->
+    <section id="modelS" class="car_section">
+        <img src="./images/ModelS.jfif" alt="Model S" class="car-image">
+        <div class="car_details transform_50">
+            <h1 class="model_name">Model S</h1>
+            <h2 class="tag_line">Plaid: The Highest Performance Sedan</h2>
+        </div>
+        <div class="car_buttons transform_50">
+            <button class="btn">Custom Order</button>
+            <button class="btn inventory">View Inventory</button>
+        </div>
+        <a href="#modelX">
+            <svg class="down_svg" viewBox="0 0 30 30" width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+                <path stroke="currentColor" stroke-width="1.5" d="m19.5 12.5-4.5 4-4.5-4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+    </section>
+
+    <!-- Model X Section -->
+    <section id="modelX" class="car_section">
+        <img src="./images/ModelX.jfif" alt="Model X" class="car-image">
+        <div class="car_details transform_50">
+            <h1 class="model_name">Model X</h1>
+            <h2 class="tag_line">Plaid: The Highest Performance SUV</h2>
+        </div>
+        <div class="car_buttons transform_50">
+            <button class="btn">Custom Order</button>
+            <button class="btn inventory">View Inventory</button>
+        </div>
+        <a href="#modelY">
+            <svg class="down_svg" viewBox="0 0 30 30" width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+                <path stroke="currentColor" stroke-width="1.5" d="m19.5 12.5-4.5 4-4.5-4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+    </section>
+
+    <!-- Model Y Section -->
+    <section id="modelY" class="car_section">
+        <img src="./images/ModelY.jfif" alt="Model Y" class="car-image">
+        <div class="car_details transform_50">
+            <h1 class="model_name">Model Y</h1>
+            <h2 class="tag_line">Lease starting at $499/mo</h2>
+        </div>
+        <div class="car_buttons transform_50">
+            <button class="btn">Custom Order</button>
+            <button class="btn inventory">View Inventory</button>
+        </div>
+        <a href="#solarPanels">
+            <svg class="down_svg" viewBox="0 0 30 30" width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+                <path stroke="currentColor" stroke-width="1.5" d="m19.5 12.5-4.5 4-4.5-4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+    </section>
+
+    <!-- Solar Panels Section -->
+    <section id="solarPanels" class="car_section">
+        <img src="./images/SolarPanels.jfif" alt="Solar Panels" class="car-image">
+        <div class="car_details transform_50">
+            <h1 class="model_name">Solar Panels</h1>
+            <h2 class="tag_line">Lowest Cost Solar Panels in America</h2>
+        </div>
+        <div class="car_buttons transform_50">
+            <button class="btn">Order Now</button>
+            <button class="btn inventory">Learn More</button>
+        </div>
+        <a href="#solarRoof">
+            <svg class="down_svg" viewBox="0 0 30 30" width="24" height="24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img">
+                <path stroke="currentColor" stroke-width="1.5" d="m19.5 12.5-4.5 4-4.5-4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </a>
+    </section>
+
+    <!-- Solar Roof Section -->
+    <section id="solarRoof" class="car_section">
+        <img src="./images/SolarRoof.jfif" alt="Solar Roof" class="car-image">
+        <div class="car_details transform_50">
+            <h1 class="model_name">Solar Roof</h1>
+            <h2 class="tag_line">Produce Clean Energy From Your Roof</h2>
+        </div>
+        <div class="car_buttons transform_50">
+            <button class="btn">Order Now</button>
+            <button class="btn inventory">Learn More</button>
+        </div>
+    </section>
+
 </body>
 </html>
