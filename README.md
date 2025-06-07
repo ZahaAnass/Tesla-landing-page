@@ -3,7 +3,8 @@
 A responsive clone of the Tesla landing page built with HTML, CSS, and Tailwind CSS. This project showcases Tesla's electric vehicles and solar products with smooth scrolling navigation and a clean, modern UI.
 
 [![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://zahaanass.github.io/Tesla-landing-page/public/)
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+Link to live demo
+(https://zahaanass.github.io/Tesla-landing-page/public/)
 
 ## 🚀 Features
 
